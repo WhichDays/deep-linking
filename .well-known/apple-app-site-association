@@ -1,0 +1,22 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+			{
+				"appIds": ["5PBBH9T628.com.whichdays.whichdays"],
+				"components": [
+					{
+						"/": "/profile"
+						"?": {
+							"id": "????????????????????????????????????"
+						}	
+					}
+				]
+			},
+      {
+        "appID": "5PBBH9T628.com.whichdays.whichdays",
+        "paths": ["/profile"]
+      }
+    ]
+  }
+}
