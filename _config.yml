@@ -1,1 +1,2 @@
 include: [".well-known"]
+exclude: ["styles/input.css", "package.json", "package.lock.json", "tailwind.config.js"]

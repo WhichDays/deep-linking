@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title></title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-		<h1>Profile page</h1>
-	</body>
+  <head>
+    <title>WhichDays connection request</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/compiled.css" />
+  </head>
+  <body></body>
+  <div class="relative z-10">
+    <div class="fixed inset-0 bg-whichdayslight-dark"></div>
+
+    <div class="fixed inset-0 z-10 overflow-y-auto">
+      <div
+        class="flex min-h-full justify-center p-4 text-center items-center sm:p-0"
+      >
+        <div
+          class="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6"
+        >
+          <div>
+            <div class="mx-auto flex h-36 w-36 items-center justify-center">
+              <a href="https://www.whichdays.com"
+                ><img src="https://app.whichdays.com/icon.png" alt="WhichDays"
+              /></a>
+            </div>
+            <div class="mt-3 text-center sm:mt-5">
+              <h3
+                class="text-lg font-medium leading-6 text-whichdayslight-dark"
+                id="modal-title"
+              >
+                Your contacts are using
+                <a href="https://www.whichdays.com">WhichDays</a>.
+              </h3>
+              <div class="mt-2">
+                <p class="text-lg text-gray-600">
+                  Looks like your contacts are using WhichDays. Go get the app,
+                  then re-open this link.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-10 flex flex-col sm:flex-row items-center">
+            <div class="flex-1">
+              <a href="https://apple.co/3VNZsgX"><img
+                src="./Download_on_the_App_Store.png"
+                alt="Download WhichDays on the App Store"
+				class="max-h-20"
+              /></a>
+            </div>
+            <div class="flex-1">
+              <a href="https://play.google.com/store/apps/details?id=com.whichdays.whichdays"><img
+                src="./google-play-badge.png"
+                alt="Download WhichDays on Google Play"
+				class="max-h-32"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>

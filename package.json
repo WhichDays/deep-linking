@@ -1,0 +1,23 @@
+{
+  "name": "deep-linking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhichDays/deep-linking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhichDays/deep-linking/issues"
+  },
+  "homepage": "https://github.com/WhichDays/deep-linking#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
